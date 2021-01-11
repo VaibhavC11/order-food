@@ -113,7 +113,7 @@
     width: 100%;
     z-index: -1;
     opacity: 0.8;
-    background-image: url(../img/lunch3.jpeg);
+    background-image: url('../img/bg.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -157,6 +157,198 @@
     text-decoration: underline;
 }
 
+/* Food Section */
+
+#food {
+    margin-top: 295px;
+    margin-bottom: -200px;
+    background-color: white;
+}
+
+#f-head {
+    padding: 40px;
+    font-size: 3.5rem;
+    font-family: 'Baloo Bhai 2', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+#f-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.f-item {
+    width: 200px;
+    height: 200px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-bottom: 6.5%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#i1 {
+    background-image: url('../img/food/american.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i2 {
+    background-image: url('../img/food/italian.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i3 {
+    background-image: url('../img/food/chinese.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i4 {
+    background-image: url('../img/food/north_indian.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i5 {
+    background-image: url('../img/food/mexican.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i6 {
+    background-image: url('../img/food/latin_america.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i7 {
+    background-image: url('../img/food/medtrn_food.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i8 {
+    background-image: url('../img/food/chicken_wings.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i9 {
+    background-image: url('../img/food/new_mexican.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i10 {
+    background-image: url('../img/food/sandwich.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i11 {
+    background-image: url('../img/food/breakfast.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i12 {
+    background-image: url('../img/food/salads.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i13 {
+    background-image: url('../img/food/thai.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i14 {
+    background-image: url('../img/food/vegan.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i15 {
+    background-image: url('../img/food/healthy.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i16 {
+    background-image: url('../img/food/vegetarian.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i17 {
+    background-image: url('../img/food/desserts.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i18 {
+    background-image: url('../img/food/ice_cream.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i19 {
+    background-image: url('../img/food/juices.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#i20 {
+    background-image: url('../img/food/comfort_food.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#f-container .text-box {
+    position: relative;
+    text-align: center;
+    top: 80%;
+    left: 1.5%;
+}
+
+._food {
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .f-img {
+    display: inline-block;
+    width: 17%;
+    height: 317px;
+    border-radius: 50%;
+    margin: 2% auto;
+} */
+
 /* Services */
 
 #services {
@@ -197,6 +389,7 @@
     font-size: 1.1rem;
     color: #eed2c1;
 }
+
 /* Utility Classes */
 
 .h-primary {
@@ -205,7 +398,6 @@
     color: rgba(0, 0, 0, 1);
     text-shadow: 4px 1px 35px rgb(37, 37, 37);
     font-weight: bold;
-
     animation-name: primary-animation;
     animation-duration: 1.5s;
     animation-delay: 0.1s;
