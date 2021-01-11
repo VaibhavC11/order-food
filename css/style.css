@@ -122,7 +122,7 @@
 #home-container {
     position: relative;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.6);
     width: 50%;
     height: 38%;
     flex-direction: column;
@@ -188,6 +188,12 @@
     margin-bottom: 6.5%;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.7s ease-in-out 0.1s;
+}
+
+.f-item:hover {
+    width: 240px;
+    height: 240px;
 }
 
 #i1 {
@@ -420,20 +426,20 @@
     align-items: center;
     justify-content: center;
     width: 18vw;
-    height: 12%;
+    height: 90px;
     font-size: 2.7rem;
     font-family: 'Bree Serif', serif;
     margin: 4% auto;
     padding: 6px 20px;
     font-weight: bold;
-    border: 2px solid black;
-    border-radius: 8px;
+    border: 3px solid black;
+    border-radius: 15px;
     background-color: rgb(255, 170, 11);
     color: rgb(255, 20, 67);
     opacity: 0.85;
     text-shadow: 4px 1px 50px rgb(255, 20, 67);
     box-shadow: 6px 6px 16px 1px black;
-    transition: all 0.8s ease-in-out 0s;
+    transition: all 0.6s ease-in-out 0s;
     cursor: pointer;
     /* background-color: black;
     color: white;
@@ -444,7 +450,10 @@
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     opacity: 0.92;
-    font-size: 2.75rem;
+    font-size: 3rem;
+    width: 20vw;
+    height: 100px;
+    border: 2px solid rgb(146, 145, 145);
 }
 
 .box {
