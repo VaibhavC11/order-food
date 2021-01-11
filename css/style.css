@@ -166,10 +166,11 @@
 }
 
 #f-head {
-    padding: 40px;
+    padding: 50px 100px;
     font-size: 3.5rem;
     font-family: 'Baloo Bhai 2', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
+    text-align: center;
 }
 
 #f-container {
