@@ -1,0 +1,39 @@
+.navbar ul {
+    margin: 0;
+    font-size: 1rem;
+
+}
+
+.navbar ul .item>a {
+    padding: 0;
+    width: 50%;
+}
+
+#home-container {
+    height: 32.5%;
+}
+
+#home-container p {
+    font-size: 1.1rem;
+}
+
+.btn {
+    width: 25vw;
+    height: 70px;
+    font-size: 2.3rem;
+    margin: auto;
+}
+
+#home-container a {
+    font-size: 1.2rem;
+}
+
+@keyframes primary-animation {
+    from {
+        font-size: 3rem;
+        /* padding: 75px; */
+    }
+    to {
+        font-size: 4.5rem;
+    }
+}
