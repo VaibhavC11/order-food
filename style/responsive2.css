@@ -1,7 +1,6 @@
 .navbar ul {
-    margin: 0;
     font-size: 1rem;
-
+    margin: 0% 4%;
 }
 
 .navbar ul .item>a {
